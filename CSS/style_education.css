@@ -109,7 +109,7 @@ html{
     margin: auto; */
     justify-content: center;
     height: 50vh;
-    background: url(/aks/education_background2.jpg);
+    background: url(/aks/images/education_background2.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
