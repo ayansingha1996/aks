@@ -110,7 +110,7 @@ html{
     margin: auto; */
     justify-content: center;
     height: 50vh;
-    background: url(/experience.jpg);
+    background: url(/aks/experience.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
