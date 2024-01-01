@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Ubuntu:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 20px;
+    width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 45px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.name{
+    margin: 0px;
+}
+
+.navlist li{
+    /* padding: 10px 30px; */
+    display: flex;
+}
+
+.navlist li a{
+    text-decoration: none;
+    display: flex;
+    margin: 0 10px;
+    color: white;
+    padding: 0 5px;
+    max-width: 150px;
+
+}
+
+.rightnav{
+    width: 20%;
+    padding-right: 30px;
+    text-align: right;
+    padding: 20px 20px;
+}
+
+.btn{
+    justify-content: left;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.background{
+    background: rgb(51, 35, 0);
+}
+
+#search{
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.name{
+    color:  white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+.heading1{
+    display: flex;
+    /* width: 80%;
+    margin: auto; */
+    justify-content: center;
+    height: 50vh;
+    background: url(/education_background2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.education{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 600;
+    align-items: center;
+    margin: auto;
+
+}
+
+.specialtext{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.5cm;
+    color: rgb(68, 37, 24);
+}
+
+
+.bigtext{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgb(74, 37, 16);
+    border-radius: 15px;
+    padding: 20px 0;
+    margin: 20px 0;
+    
+}
+
+.smalltext{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5cm;
+}
+
+.heading2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.section1{
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.writtenpart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+.collegelogo{
+    display: flex;
+    /* flex-direction: column; */
+    width: 30%;
+    margin: auto;
+}
+
+.collegelogo img{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    margin: auto;
+    padding: 0 5px;
+}
+
+.heading3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+/* .single{
+    width: 30%;
+    margin: auto;
+    justify-content: right;
+} */
+.mmu img{
+    width: 80%;
+}
+
+.heading4{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.tiu img{
+    width: 100%;
+}
+
+.textfooter{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+
+@media only screen and (max-width: 1250px){
+    .navlist{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 450px;
+    }
+
+    .rightnav{
+        text-align: center;
+        margin: auto;
+    }
+
+    #search{
+        width: 70%;
+    }
+
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .welcome{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .welcomename{
+        text-align: center;
+    }
+
+    .firstsec{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .thumbnail{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .thumbnail img{
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .firsthead{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .textbig{
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .textsmall{
+        text-align: center;
+    }
+
+    .secondsec{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+    }
+
+    .collegelogo{
+        justify-content: center;
+        margin: auto;
+        /* padding: 0 40px; */
+    }
+
+
+    .collegelogo img{
+        justify-items: center;
+        align-items: center;
+        padding: 20px 40px;
+        width: 200px;
+        
+    }
+
+    .navlist li{
+        padding: 5px;
+    }
+
+    .name{
+        padding: 5px;
+    }
+}

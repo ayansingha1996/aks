@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Ubuntu:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 20px;
+    width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 45px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.name{
+    margin: 0px;
+}
+
+.navlist li{
+    /* padding: 10px 30px; */
+    display: flex;
+}
+
+.navlist li a{
+    text-decoration: none;
+    display: flex;
+    margin: 0 10px;
+    color: white;
+    padding: 0 5px;
+    max-width: 150px;
+}
+
+.rightnav{
+    width: 20%;
+    padding-right: 30px;
+    text-align: right;
+    padding: 20px 20px;
+}
+
+.btn{
+    justify-content: left;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.background{
+    background: rgb(51, 35, 0);
+}
+
+#search{
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.name{
+    color:  white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+.heading1{
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    background-color: beige;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.heading2{
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.certificate img{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%; 
+    align-items: right;
+}
+
+.bigtext{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgb(74, 37, 16);
+    border-radius: 15px;
+    padding: 20px 0;
+    margin: 20px 0;
+    
+}
+
+.specialtext{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;    
+    line-height: 1.5cm;
+    color: rgb(68, 37, 24);
+    padding: 30px 0;
+}
+
+.textfooter{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+@media only screen and (max-width: 1250px){
+    .navlist{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 450px;
+    }
+
+    .rightnav{
+        text-align: center;
+        margin: auto;
+    }
+
+    #search{
+        width: 70%;
+    }
+
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .welcome{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .welcomename{
+        text-align: center;
+    }
+
+    .firstsec{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .thumbnail{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .thumbnail img{
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .firsthead{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .textbig{
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .textsmall{
+        text-align: center;
+    }
+
+    .secondsec{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .navlist li{
+        padding: 5px;
+    }
+
+    .name{
+        padding: 5px;
+    }
+}
