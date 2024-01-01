@@ -111,7 +111,7 @@ html{
 
 .welcome{
     height: 500px;
-    background: rgb(255, 255, 255) url("/background1.jpg");
+    background: rgb(255, 255, 255) url("/aks/background1.jpg");
     display: flex;
     background-size: cover;
     background-blend-mode: darken;
